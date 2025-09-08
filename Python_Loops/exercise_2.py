@@ -17,6 +17,19 @@ Display an empty line at the end of each iteration of the outer loop (an empty l
 """
 
 # Using while loop
+# i = 1
+# n = 5
+
+# while i <= n:
+#     j = 1
+#     while j <= i:
+#         print(j, end=' ')
+#         j += 1
+#     print()  # New line after each row
+#     i += 1
+
+
+
 i = 1
 n = 5
 
