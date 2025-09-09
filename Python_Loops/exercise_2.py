@@ -34,9 +34,9 @@ i = 1
 n = 5
 
 while i <= n:
-    j = 1
+    j = 1 
     while j <= i:
-        print(j, end=' ')
+        print(j, end='  ')
         j += 1
     print()  # New line after each row
     i += 1
