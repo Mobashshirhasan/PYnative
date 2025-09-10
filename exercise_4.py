@@ -2,7 +2,7 @@
 present at an even index number.For example, str = "PYnative". so your code 
 should display ‘P’, ‘n’, ‘t’, ‘v’."""
 
-user_input = input("Enter a String: ")
+user_input = input("Enter a String : ")
 print(f"Original String is : {user_input}")
 
 count = len(user_input)
