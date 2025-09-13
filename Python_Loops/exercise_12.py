@@ -7,3 +7,15 @@ if P ==R:
     print(f"{P} is a palindrome number")
 else:
     print(f"{P} is not a palindrome number")
+
+
+
+""" look at [::-1]:
+
+start → empty → means “start from the end”
+
+end → empty → means “go until the start”
+
+step = -1 → go backwards one character at a time
+
+So Python takes your string from end to start, one by one. """
