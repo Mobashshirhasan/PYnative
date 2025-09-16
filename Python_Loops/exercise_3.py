@@ -2,9 +2,20 @@
     each iteration, print the sum of the current and previous number."""
 
 
-previous_num = 0
+# previous_num = 0
 
+# for i in range(1, 11):
+#     Total_sum = previous_num + i
+#     print("Current number", i , "previous number: ", previous_num , "sum : ", Total_sum)
+#     previous_num = i
+
+# print table of 2:
+# for i in range(1, 11):
+#     result = 2 * i
+#     print(f" 2 * {i} = {result}")
+
+
+# Print the table from 1 to 10: 
 for i in range(1, 11):
-    Total_sum = previous_num + i
-    print("Current number", i , "previous number: ", previous_num , "sum : ", Total_sum)
-    previous_num = i
+    result = 2 * i
+    print(f" 2 * {i} = {result}")
