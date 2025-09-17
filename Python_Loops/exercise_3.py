@@ -16,13 +16,19 @@
 
 
 # Print the table from 1 to 10: 
-for i in range(1, 11):
-    print(f"Table of {i}:")
-for j in range(1, 11):
-    # print(f" {i} * {j} = {i * j}")
-    print(f"{i} × {j} = {i * j}")
+# for i in range(1, 11):
+#     print(f"Table of {i}:")
+# for j in range(1, 11):
+#     # print(f" {i} * {j} = {i * j}")
+#     print(f"{i} × {j} = {i * j}")
 
 # for i in range(1, 11):
 #     print(f"Table of {i}:")
 #     for j in range(1, 11):
 #         print(f"{i} × {j} = {i * j}")
+
+# 7536 reverse this number:
+num = 7536
+
+reversed_num = int(str(num)[::-1])
+print(reversed_num)  # Output: 6357
