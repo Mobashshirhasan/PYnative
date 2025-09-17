@@ -31,4 +31,4 @@
 num = 7536
 
 reversed_num = int(str(num)[::-1])
-print(reversed_num)  # Output: 6357
+print(f"Reversed Number : {reversed_num}")  # Output: 6357
