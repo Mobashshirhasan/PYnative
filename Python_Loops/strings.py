@@ -4,9 +4,3 @@
 # # print(b[::-5])
 # print(b[::-2])
 
-
-for num in range(6):
-    for i in range(num):
-        print(num, end=" ")
-
-    print("\n")
