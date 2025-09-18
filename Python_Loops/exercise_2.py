@@ -54,6 +54,6 @@ Display an empty line at the end of each iteration of the outer loop (an empty l
 
 for num in range(6):
     for j in range(num):
-        # print("*", end=" ")
-        print(num, end=" ")
+        print("*", end=" ")
+        # print(num, end=" ")
     print("\n")
