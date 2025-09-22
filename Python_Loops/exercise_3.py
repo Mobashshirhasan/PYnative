@@ -28,7 +28,7 @@
 #         print(f"{i} × {j} = {i * j}")
 
 # 7536 reverse this number:
-num = 7536
+num = 5050
 
 reversed_num = int(str(num)[::-3])
-print(f"Reversed Number : {reversed_num}")  # Output: 6357
+print(f"Reversed Number : {reversed_num}")  # Output: 0505
