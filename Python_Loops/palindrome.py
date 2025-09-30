@@ -3,7 +3,7 @@ reversed. In simpler terms,it reads the same forwards and backward.
 For example 121, 5005.
 """
 
-p = int(input("ENTER A NUMBER: "))
+p = int(input("ENTER A NUMBER : "))
 
 p = str(p)
 r = p[::-1]
