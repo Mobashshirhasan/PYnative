@@ -27,5 +27,5 @@ def is_leap_year(year):
     return False
 
 # check
-print(is_leap_year(2020)) # True
-print(is_leap_year(2025)) # False
+print(is_leap_year(2020)) 
+print(is_leap_year(2025)) 
