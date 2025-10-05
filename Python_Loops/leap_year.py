@@ -9,23 +9,31 @@ also divisible by 100 but not by 400.
 Write a code find if a given year is a leap year.
 """
 
-def is_leap_year(year):
-  """
-  Returns:
-    True if the year is a leap year, False otherwise.
-  """
-  print("Year", year)
-  if year % 4 == 0:
-    if year % 100 == 0:
-      if year % 400 == 0:
-        return True
-      else:
-        return False
-    else:
-      return True
-  else:
-    return False
+# def is_leap_year(year):
+#   """
+#   Returns:
+#     True if the year is a leap year, False otherwise.
+#   """
+#   print("Year", year)
+#   if year % 4 == 0:
+#     if year % 100 == 0:
+#       if year % 400 == 0:
+#         return True
+#       else:
+#         return False
+#     else:
+#       return True
+#   else:
+#     return False
 
-# check
-print(is_leap_year(2020)) 
-print(is_leap_year(2025)) 
+# # check
+# print(is_leap_year(2020)) 
+# print(is_leap_year(2025)) 
+
+
+user = int(input("Enter a year: "))
+
+if (user % 4 == 0 and user % 100 != 0) or (user % 400 == 0):
+    print(f"{user} is a leap year")
+else:
+    print(f"{user} is not a leap year")
