@@ -9,4 +9,4 @@ while countdown > 0:
     countdown -= 1
 
 print("Time's up!")
-os.system("say 'Time is up!'")  # Mac will speak this out loud!
+os.system("say 'Time is up!!!!!!'")  # Mac will speak this out loud!
