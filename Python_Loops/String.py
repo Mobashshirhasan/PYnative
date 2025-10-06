@@ -1,6 +1,5 @@
 import time
-import os  # To run Mac system commands
-
+import os  
 countdown = int(input("Enter countdown time in seconds: "))
 
 while countdown > 0:
@@ -9,4 +8,4 @@ while countdown > 0:
     countdown -= 1
 
 print("Time's up!")
-os.system("say 'Time is up!!!!!!'")  # Mac will speak this out loud!
+os.system("say 'Time is up!!!!!!'")  
