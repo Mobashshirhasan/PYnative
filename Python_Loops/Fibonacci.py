@@ -1,8 +1,8 @@
 """Generate Fibonacci series up to 15 terms """
 
 
-num1 = 0
-num2 = 1
+num1 = 1
+num2 = 2
 
 print("Fibonacci series:")
 for num in range(10):
