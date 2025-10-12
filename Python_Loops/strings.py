@@ -38,5 +38,15 @@ for num in range(len(arr)-1):
         new_arr.append(arr[num])
 
 new_arr.append(arr[len(arr)-1])
-# print(new_arr)
-print(arr[len(arr)-1])
+print(new_arr)
+# print(arr[len(arr)-1])
+
+
+# print(len(arr))
+# new_arr = []
+# for num in range(len(arr) -1):
+#     if arr[num] != arr[num + 1]:
+#         new_arr.append(arr[num])
+
+# new_arr.append(arr[len(arr) -1])
+# print(arr(len[arr]-1))
